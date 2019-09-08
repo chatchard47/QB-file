@@ -1,0 +1,23 @@
+CLS
+    PRINT "laundary fee le area by thitima"
+    READ shirts, pants, skints
+    PRINT "*****laundary fee*****"
+    INPUT "number of shirts washed"; shirts1
+    LOCATE 2, 33: PRINT "priece"
+    PRINT "priece"; shirts
+    INPUT "number of pants washed"; pants1
+    LOCATE 4, 33: PRINT "priece"
+    PRINT "priece"; pants
+    INPUT "number of skints washea"; skirts1
+    LOCATE 6, 33: PRINT "priece"
+    PRINT "priece"; skints
+    total = ((shirts1 * shirts) + (pants * pants1)) + (skirs * skirts1)
+    PRINT "total"; total, "bath"
+    DATA 5,10,15
+END
+
+
+
+
+
+

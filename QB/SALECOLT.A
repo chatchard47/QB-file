@@ -1,0 +1,32 @@
+CLS
+   PRINT "sealecoltd le area by thitima"
+   PRINT "___seale&sale coLtd____"
+   PRINT "+++seel Product +++"
+   INPUT "code"; code
+   INPUT "name"; name$
+   INPUT "Amount_sold"; amount
+   READ price
+   DATA 10
+   PRINT "price:piece="; price, "bath"
+   toal = amount * price
+   PRINT "total money="; total; money, "bath"
+   PRINT "+++stock+++"
+   PRINT "code"; code
+   PRINT "product name"; name$
+   INPUT "original product"; original
+   PRINT "amount sola"; amount
+   lnventovies = original - amount
+   PRINT "_ _ _thank you_ _ _ "
+END
+
+
+
+
+
+
+
+
+
+
+
+

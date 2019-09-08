@@ -1,0 +1,17 @@
+CLS
+   PRINT "nameSalary le Area by thitima"
+   READ agee1, agee2, agee3
+   INPUT "name1="; name1$
+   INPUT "salary1="; salary1
+   INPUT "nume2="; name2$
+   INPUT "Salary2="; Sala2
+   INPUT "name3="; name3$
+   INPUT "salary3="; salary3
+   tolal = salary1 + salary2 + salary3
+   PRINT "pessanol name1", name1$, "age"; agee1; "salary"; salary1
+   PRINT "pessanol name2", namw2$, "age", agee2; "salary"; salary2
+   PRINT "pessanol name3", name3$, "age", agee3; "salary"; salary3
+   PRINT "total"; total, "bath"
+   DATA 30,35,37
+END
+

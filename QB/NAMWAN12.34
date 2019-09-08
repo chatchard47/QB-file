@@ -1,0 +1,16 @@
+ CLS
+    INPUT "Code="; Code$
+    INPUT "Name="; Name$
+    READ Year
+    DATA 1
+    INPUT "Midterm_Score="; MidtermSuore
+    INPUT "Finalterm_Score="; FinaltermScore
+    INPUT "Affectire_Score+"; AffectiveScore
+    PRINT "Code="; Code$
+    PRINT "Name="; Name$
+    PRINT "Year="; Year
+    Total = MidtermSuore + FinaltermScore + AffectiveScore
+    PRINT "Total="; Total
+ END
+
+
